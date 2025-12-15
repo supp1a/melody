@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrepper{
+    width: 100px;
+    margin: 30px auto;
+}
+.header{
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596f5;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-text{
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts{
+    text-align: right;
+}
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.container{
+    display: flex;
+}
+main{
+    width: 660px;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+main p{
+    margin: 10px 0;
+    text-align: justify;
+}
+#choice_floor{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #635854;
+}
+.pic{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.button-link{
+    margin-top: 170px;
+    margin-left: 90px;
+}
+.footer{
+    border-top: 4px solid #3596f5;
+    background-color: #D7D7D7;
+    padding-bottom: 50px;
+}
+.fotbar{
+    margin-top: 35px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #D7D7D7;
+}
+.fotbar p{
+    margin-left: 35px;
+    color: #635854;
+    background-color: #D7D7D7;
+}
+.fotbar-nav{
+    margin-left: 100px;
+    background-color: #D7D7D7;
+}
+.navnav{
+    margin-left: 450px;
+    background-color: #D7D7D7;
+}
+.navul{
+    list-style: none;
+    display: flex;
+    background-color: #D7D7D7;
+}
+.navli{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #635854;
+    background-color: #D7D7D7;
+}
+.navli-link{
+    color: #635854;
+    text-decoration: none;
+}
+.navli-link:hover{
+    text-decoration: underline;
+}
